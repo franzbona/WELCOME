@@ -33,6 +33,7 @@ $(window).resize(function () {
  *  =======================================*/
 
 function sliders() {
+
     if ($('.owl-carousel').length) {
 
         $(".testimonials").owlCarousel({

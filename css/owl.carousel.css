@@ -4,6 +4,9 @@
  */
 
 /* clearfix */
+.owl-wrapper {
+    margin: 0 auto;
+}
 .owl-carousel .owl-wrapper:after {
 	content: ".";
 	display: block;
