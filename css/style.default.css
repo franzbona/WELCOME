@@ -58,8 +58,8 @@ UNIVERSAL SECTION STYLES
 */
 .section {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .section:before,
@@ -150,6 +150,13 @@ p.lead {
   font-size: 24px;
   font-weight: 100;
 }
+
+p.leader {
+  font-size: 22px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+
 .text-thin {
   font-weight: 300;
 }
@@ -394,6 +401,9 @@ FOOTER
 #footer p.social a.email {
   background-color: #CD154F;
 }
+#footer p.social a.phone {
+  background-color: #6BB745;
+}
 @media (max-width: 767px) {
   #footer p.social {
     text-align: center;
@@ -440,7 +450,9 @@ input.btn {
   transition: all 0.2s ease-out;
 }
 strong {
-  font-weight: 700;
+  font-weight: 300;
+  color: #CD154F;
+
 }
 .mb20 {
   margin-bottom: 30px;
@@ -1135,6 +1147,17 @@ p {
     font-size: 21px;
   }
 }
+
+.leader {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .leader {
+    font-size: 21px;
+  }
+}
+
 .text-small {
   font-size: 12px;
 }
